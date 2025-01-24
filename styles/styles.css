@@ -1,0 +1,299 @@
+body {
+    background-color: #005b9f;
+    color: whitesmoke;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.paraquedista_image {
+    position: fixed;
+    right: 20px;
+    top: 150px;
+    width: 15%;
+    max-width: 150px;
+}
+
+.options {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 3%;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.button {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #005b9f;
+    padding: 10px 20px;
+    min-width: 150px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background-color: #336cc2;
+}
+
+.sobreMim_image {
+    width: 100%;
+    height: auto;
+}
+
+.sobreMim_text {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.sobreMim_textoFinal {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 20px;
+}
+
+.conatiner_four {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.desenvolver_softwareRed {
+    font-weight: bold;
+}
+
+.video {
+    width: 45%;
+    height: auto;
+}
+
+.image_conatinerFour {
+    width: 48%;
+    height: auto;
+}
+
+.sobreMim_finalBanner {
+    width: 100%;
+    height: 5%;
+}
+
+.tecVideos_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projetos_text {
+    flex: 1 1 45%;
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.projetos_text2 {
+    flex: 1 1 45%;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.projetos_text3 {
+    flex: 1 1 45%;
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 15px;
+}
+
+.projectos_finalBanner {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.conatiner_five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video {
+    flex: 1 1 45%;
+    height: auto;
+}
+
+.contacto_banner {
+    width: 100%;
+    height: 5%;
+    margin-top: 80px;
+}
+
+.btn_style {
+    width: 270px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn_style_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .paraquedista_image {
+        width: 20%;
+        max-width: 100px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .options {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .button {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .sobreMim_text {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .conatiner_four,
+    .conatiner_five {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .image_conatinerFour {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .projectos_finalBanner {
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .projetos_text, 
+    .projetos_text2, 
+    .projetos_text3 {
+        font-size: 1rem;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .paraquedista_image {
+        width: 25%;
+        right: 5px;
+        top: 5px;
+    }
+
+    .options {
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
+
+    .button {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .sobreMim_text {
+        font-size: 0.9rem;
+        width: 95%;
+    }
+
+    .conatiner_four,
+    .conatiner_five {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .image_conatinerFour {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .projectos_finalBanner {
+        margin: 10px 0;
+    }
+
+    .projetos_text, 
+    .projetos_text2, 
+    .projetos_text3 {
+        font-size: 0.9rem;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
